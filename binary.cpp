@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 using namespace std;
 int fun(int ar[],int a)
@@ -38,41 +38,4 @@ t=fun(ar,m);
 cout<<t;
 
 
-}
-8*/
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    // your code goes here
-    int t;
-    int n = 0;
-    int x = 0;
-    int j;
-
-    cout << "entr test cases";
-    cin >> t;
-    while (t > 0)
-    {
-        int m;
-
-        cout << "enter rank" << endl;
-        cin >> m;
-        for (int i = 1; i <= 1000; i += 25)
-        {
-            n += 25;
-            x++;
-            for (j = i; j <= n; j++)
-            {
-                if (m == j)
-                {
-                    cout << x << endl;
-                }
-            }
-            
-        }
-        t--;
-    }
-    return 0;
 }
